@@ -1,9 +1,9 @@
 function iniciarBusca() {
     const searchTerm = document.querySelector('input[type="text"]').value.toLowerCase();
     const cards = document.querySelectorAll('.card');
-    cards.forEach(card => {
+    cards.forEach(card => { 
         const title = card.querySelector('h2').textContent.toLowerCase();
-        card.style.display = title.includes(searchTerm) ? 'block' : 'none';
+        card.style.display = title.includes(searchTerm) ? 'flex' : 'none';
     });
 }
 
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(movies => {
             movies.forEach(movie => {
                 const card = document.createElement('article');
-                card.className = 'card';
+                card.classList.add('card');
 
                 const createRatingStars = (rating) => {
                     let starsHTML = '';
@@ -30,17 +30,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 };
 
                 card.innerHTML = `
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="${movie.posterUrl}" alt="Pôster de ${movie.title}">
+                        </div>
+                        <div class="card-back">
                             <h2>${movie.title}</h2>
                             <p><strong>Lançamento:</strong> ${movie.releaseYear}</p>
-                            <p><strong>Descrição:</strong> ${movie.description}</p>
                             ${createRatingStars(movie.rating)}
                             <p><strong>Gênero:</strong> ${movie.genre}</p>
                             <p><strong>Duração:</strong> ${movie.duration}</p>
-                            <button>Ver Trailer</button>
-                            <button>Assistir</button>
-                        `;
+                            <div>
+                                <button class="trailer-btn">Ver Trailer</button>
+                                <button>Assistir</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
 
                 cardContainer.appendChild(card);
+
+                card.querySelector('.trailer-btn').addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    window.open(movie.trailerUrl, '_blank');
+                });
             });
         })
         .catch(error => {

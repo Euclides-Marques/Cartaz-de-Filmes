@@ -2,49 +2,55 @@
     {
       "title": "O Poderoso Chefão",
       "releaseYear": 1972,
-      "description": "Um épico sobre a família Corleone e sua influência na máfia.",
       "rating": 5,
       "genre": "Crime, Drama",
-      "duration": "2h 55m"
+      "duration": "2h 55m",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=UaVTIH8mujA"
     },
     {
       "title": "Interestelar",
       "releaseYear": 2014,
-      "description": "Uma equipe de exploradores viaja através de um buraco de minhoca no espaço.",
       "rating": 4,
       "genre": "Ficção Científica, Aventura",
-      "duration": "2h 49m"
+      "duration": "2h 49m",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=mbbPSFobLgs"
     },
     {
       "title": "A Lista de Schindler",
       "releaseYear": 1993,
-      "description": "Um empresário alemão tenta salvar judeus durante o Holocausto.",
       "rating": 5,
       "genre": "Biografia, Drama, História",
-      "duration": "3h 15m"
+      "duration": "3h 15m",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=gG22XNhtnoY"
     },
     {
       "title": "Forrest Gump",
       "releaseYear": 1994,
-      "description": "A vida de Forrest Gump, um homem com um QI baixo, mas com um coração enorme.",
       "rating": 4,
       "genre": "Drama, Romance",
-      "duration": "2h 22m"
+      "duration": "2h 22m",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=bLvqoHBptjg"
     },
     {
       "title": "O Senhor dos Anéis: O Retorno do Rei",
       "releaseYear": 2003,
-      "description": "A batalha final pela Terra-média e a destruição do Um Anel.",
       "rating": 5,
       "genre": "Aventura, Fantasia, Ação",
-      "duration": "3h 21m"
+      "duration": "3h 21m",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=r5X-hFf6Bwo"
     },
     {
       "title": "Clube da Luta",
       "releaseYear": 1999,
-      "description": "Um homem insatisfeito com sua vida encontra um clube secreto de luta.",
       "rating": 4,
       "genre": "Drama",
-      "duration": "2h 19m"
+      "duration": "2h 19m",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=SUXWAEX2jlg"
     }
 ]
