@@ -154,22 +154,11 @@ main {
     background-color: #292a2d;
     color: white;
     transform: rotateY(180deg);
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
-    gap: 0.5rem; 
-}
-
-.card-back > * { 
-    margin: 0;
-}
-
-
-.card-back > div {
-    display: flex;
-    flex-direction: column; 
     gap: 0.5rem; 
 }
 
@@ -197,7 +186,6 @@ main {
 }
 
 .card p {
-    line-height: 1.6;
     font-size: 0.9rem;
     color: var(--secondary-color);
 }
