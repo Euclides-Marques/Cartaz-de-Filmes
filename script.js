@@ -1,3 +1,12 @@
+function iniciarBusca() {
+    const searchTerm = document.querySelector('input[type="text"]').value.toLowerCase();
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+        const title = card.querySelector('h2').textContent.toLowerCase();
+        card.style.display = title.includes(searchTerm) ? 'block' : 'none';
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const cardContainer = document.querySelector('.card-container');
 
