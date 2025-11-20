@@ -1,0 +1,50 @@
+[
+    {
+      "title": "O Poderoso Chefão",
+      "releaseYear": 1972,
+      "description": "Um épico sobre a família Corleone e sua influência na máfia.",
+      "rating": 5,
+      "genre": "Crime, Drama",
+      "duration": "2h 55m"
+    },
+    {
+      "title": "Interestelar",
+      "releaseYear": 2014,
+      "description": "Uma equipe de exploradores viaja através de um buraco de minhoca no espaço.",
+      "rating": 4,
+      "genre": "Ficção Científica, Aventura",
+      "duration": "2h 49m"
+    },
+    {
+      "title": "A Lista de Schindler",
+      "releaseYear": 1993,
+      "description": "Um empresário alemão tenta salvar judeus durante o Holocausto.",
+      "rating": 5,
+      "genre": "Biografia, Drama, História",
+      "duration": "3h 15m"
+    },
+    {
+      "title": "Forrest Gump",
+      "releaseYear": 1994,
+      "description": "A vida de Forrest Gump, um homem com um QI baixo, mas com um coração enorme.",
+      "rating": 4,
+      "genre": "Drama, Romance",
+      "duration": "2h 22m"
+    },
+    {
+      "title": "O Senhor dos Anéis: O Retorno do Rei",
+      "releaseYear": 2003,
+      "description": "A batalha final pela Terra-média e a destruição do Um Anel.",
+      "rating": 5,
+      "genre": "Aventura, Fantasia, Ação",
+      "duration": "3h 21m"
+    },
+    {
+      "title": "Clube da Luta",
+      "releaseYear": 1999,
+      "description": "Um homem insatisfeito com sua vida encontra um clube secreto de luta.",
+      "rating": 4,
+      "genre": "Drama",
+      "duration": "2h 19m"
+    }
+]
