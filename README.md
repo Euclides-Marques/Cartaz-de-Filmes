@@ -1,6 +1,6 @@
-# Base de Conhecimento de Filmes
+# Cartaz de Filmes
 
-Este projeto é uma **base de conhecimento de filmes** em formato de página web estática.  
+Este projeto é um **cartaz de filmes** em formato de página web estática.  
 Ele exibe uma coleção de filmes em forma de **cards interativos**, permitindo **busca por título** e **filtro por gênero**, além de acesso rápido aos **trailers** no YouTube.
 
 ---
