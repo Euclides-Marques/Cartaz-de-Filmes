@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
                             <p><strong>Duração:</strong> ${movie.duration}</p>
                             <div>
                                 <button class="trailer-btn">Ver Trailer</button>
-                                <button>Assistir</button>
                             </div>
                         </div>
                     </div>
