@@ -19,10 +19,15 @@ body {
 }
 
 header {
-    padding: 2rem 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    margin: 0 auto;
+    max-width: 80rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     position: sticky;
     top: 0;
     background: var(--bg-color);
@@ -127,12 +132,10 @@ div input:focus {
 }
 
 main {
-    overflow-y: scroll;
-    overflow-x: hidden;
     max-width: 80rem;
     margin: 0 auto;
     margin-top: 2rem;
-    height: calc(100vh - 10rem - 4rem);
+    padding-bottom: 5rem;
 }
 
 
@@ -251,9 +254,7 @@ main {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative;
     width: 100%;
     color: var(--tertiary-color);
     background-color: var(--bg-color);
